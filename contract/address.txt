@@ -1,0 +1,3 @@
+Deploying contract from address  0x88A32AF55474C653a6029C037e31Fe2E07058A7c
+Account Balance  100000000000000000
+WaveContract address   0xDf775f297E4B938b0623689abA441c5e92c4a58B

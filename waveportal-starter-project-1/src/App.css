@@ -1,0 +1,207 @@
+.mainContainer {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+  /* margin-top: 64px; */
+  flex-direction: column;
+  align-items: center;
+  background: rgb(249,0,244);
+background: linear-gradient(90deg, rgba(249,0,244,1) 0%, rgba(108,9,121,1) 44%, rgba(0,212,255,1) 100%);
+}
+
+.dataContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 600px;
+}
+
+.header {
+  text-align: center;
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.bio {
+  text-align: center;
+
+  margin-top: 16px;
+}
+
+.button {
+  cursor: pointer;
+  margin-top: 16px;
+  padding: 8px;
+  border: 0;
+  border-radius: 5px;
+  max-width: 10rem;
+  width : 10rem;
+  transition: all 0.3s ease-in-out;
+  margin-bottom: 10px;
+}
+
+.button:hover{
+  background-color: rgb(224,8,128);
+  color: white;
+}
+
+
+.mining
+{
+  display: flex;
+  flex-direction: column;
+  color: white;
+  justify-content: center;
+  align-items: center;
+}
+.mining span{
+  margin-bottom: 10px;
+}
+
+.waveImg img
+{
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
+
+.waveImg
+{
+  margin-bottom: 20px;
+
+}
+
+
+.waveHeader
+{
+  display: flex;
+  width:100%;
+  justify-content: space-around;
+  color:white;
+  font-weight: bolder;
+}
+
+.waveHeader span{
+  text-align: center;
+}
+
+.singleWave
+{
+  display: flex;
+  width: 100%;
+  margin-bottom: 2px;
+  color: white;
+}
+
+.one{
+
+  flex:1;
+}
+
+.two
+{
+  flex:2;
+  text-align: center;
+}
+
+.singleWave .three
+{
+  flex:1;
+
+}
+
+.waveContainer
+{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.waveContainerInput
+{
+
+  padding: 8px;
+  border: 0;
+  border-radius: 5px;
+  max-width: 10rem;
+  width : 10rem; 
+  background-color: whitesmoke;
+}
+
+
+
+.showTable
+{
+  border-collapse: collapse;
+  margin: 25px 0;
+  font-size: 0.9em;
+  min-width: 400px;
+}
+
+.showTable thead tr{
+    background: rgb(249,0,244);
+  background: linear-gradient(90deg, rgba(249,0,244,1) 0%, rgba(108,9,121,1) 44%, rgba(0,212,255,1) 100%);
+
+  color: white;
+  text-align: left;
+  font-weight: bold;
+}
+
+.showTable th,
+.showTable td
+{
+  padding: 12px 15px;
+  
+}
+
+.showTable tbody tr{
+  border-bottom: 1px solid white;
+  color: whitesmoke;
+}
+
+.showTable tbody tr:nth-of-type(even)
+{
+  background-color: rgb(55,108,186);
+}
+
+.showTable tbody tr:last-of-type{
+  border-bottom: 2px solid rgb(227,2,225);
+}
+
+.showTable tbody tr .linkGo a{  
+  color:  white;
+  text-decoration: none;
+}
+
+.showTable tbody tr .linkGo a:hover{
+  color:rgb(2,210,254);
+  text-decoration: underline;
+}
+
+.hiImg{
+  height: 20px;
+  width: 20;
+  object-fit: cover;
+}
+
+.waveButton{
+   cursor: pointer;
+  margin-top: 16px;
+  padding: 8px;
+  border: 0;
+  border-radius: 5px;
+  width: 40px;
+  height : 40px;
+  transition: all 0.4s ease-in-out;
+  text-align: center;
+}
+
+.waveButton a{
+  margin: 0;
+  padding: 0;
+}
+
+.waveButton:hover{
+   background-color: rgb(224,8,128);
+}
